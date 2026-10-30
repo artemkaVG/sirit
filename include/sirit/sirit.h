@@ -1287,8 +1287,7 @@ public:
 
     Id OpGroupNonUniformUMin(Id result_type, Id scope, spv::GroupOperation group_operation, Id value);
 
-    Id OpGroupNonUniformUMax(Id result_type, Id scope, spv::GroupOperation group_operation,
-                             Id value);
+    Id OpGroupNonUniformUMax(Id result_type, Id scope, spv::GroupOperation group_operation, Id value);
 
     // Result is the Value of the invocation identified by the id Id to all active invocations in
     // the group.
